@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fundo completamente preto */
+    color: white; /* Para garantir que o texto seja visível no fundo preto */
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minha-foto {
+    width: 150px;
+    height: 150px;
+    background-color: #444; /* Placeholder para a foto */
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Texto descolado */
+    font-size: 2.5rem;
+}
+
+#projetos {
+    text-align: center;
+    padding: 2rem;
+}
+
+.links_projeto {
+    text-align: center;
+    padding: 2rem;
+    color:whitesmoke;
+    text-decoration:none;
+}
+
+.links_projeto:hover {
+    text-align: center;
+    padding: 2rem;
+    color:#cc87cf;
+    text-decoration:none;
+}
+
+#projetos h2 {
+    font-family: 'Orbitron', sans-serif; /* Texto futurístico */
+    font-size: 2rem;
+    color: #1e90ff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/* Estilo do carrossel */
+.carrossel {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 1rem 0;
+}
+
+.carrossel div {
+    min-width: 300px;
+    margin: 0 10px;
+    scroll-snap-align: center;
+    background: #222;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Ajuste da imagem */
+.carrossel img {
+    width: 100%; /* Largura total do card */
+    height: auto;
+    max-height: 200px; /* Limite de altura */
+    object-fit: cover; /* Para cobrir o espaço sem distorcer */
+    border-radius: 8px;
+}
+
+.carrossel .project-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carrossel .project-info a {
+    color: #1e90ff;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.linguagens {
+    font-size: 2rem; /* Ajuste o tamanho conforme desejado */
+    margin: 0 5px;
+    vertical-align: middle; /* Alinhamento vertical */
+}
+
+h3{
+    color: #cc87cf;
+}
